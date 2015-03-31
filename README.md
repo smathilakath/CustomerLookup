@@ -1,3 +1,10 @@
 # CustomerLookUp
-Update URL to the Location of your csv file:
-Private m_strFileCustomers As String = "C:\Users\bgummelt\Source\Repos\CustomerLookUp\customers.csv"
+Update the fileconfiguration in app.config
+<configuration>
+  <appSettings>
+    <add key="CustomerFile" value="C:\Users\smadhavan\Source\Repos\CustomerLookUp\customers.csv"/>
+  </appSettings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+</configuration
