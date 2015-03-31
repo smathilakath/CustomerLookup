@@ -45,3 +45,7 @@ C:\Users\smadhavan\Source\Repos\CustomerLookUp\CustomerLookUp\obj\Debug\Customer
 C:\Users\smadhavan\Source\Repos\CustomerLookUp\CustomerLookUp\obj\Debug\CustomerLookUp.frmLookUp.resources
 C:\Users\smadhavan\Source\Repos\CustomerLookUp\CustomerLookUp\obj\Debug\CustomerLookUp.Resources.resources
 C:\Users\smadhavan\Source\Repos\CustomerLookUp\CustomerLookUp\obj\Debug\CustomerLookUp.vbproj.GenerateResource.Cache
+C:\Users\smadhavan\Source\Repos\CustomerLookup\CustomerLookUp\bin\Debug\CustomerLookUp.exe.manifest
+C:\Users\smadhavan\Source\Repos\CustomerLookup\CustomerLookUp\bin\Debug\CustomerLookUp.application
+C:\Users\smadhavan\Source\Repos\CustomerLookup\CustomerLookUp\obj\Debug\CustomerLookUp.exe.manifest
+C:\Users\smadhavan\Source\Repos\CustomerLookup\CustomerLookUp\obj\Debug\CustomerLookUp.application

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CustomerLookUp.exe" version="1.0.0.0" publicKeyToken="c3411028cd01e95e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CustomerLookUp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CustomerLookUp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CustomerLookUp.exe" size="58808">
+      <assemblyIdentity name="CustomerLookUp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zJs4shorH79UOqVkM8LS4o5/2sEbmQgi2TrMeSJbT1s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CustomerLookUp.exe.config" size="321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A9lr/F1lEsyLNOLN+VtbylWh/gOOyfacnxJGx8wq/8I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CORP\smadhavan" issuerKeyHash="4e6530915ad9b804061f1cbb459c5b422a17214d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q8WKDMCVGIv28n5axn2df2neV+vCFjph0RyN2xayWvg=</DigestValue></Reference></SignedInfo><SignatureValue>Lt5f7My32o2m0x7b+xkrvY/2PRO707xQJKx3mB+CY10uawGc9oZk/uRxf965WxP1ejmmO8kT53xMvO7ilVh48CkAvBtvQCRYluGnBeUb7RY6vQXp0Qzo+cLobTa7BIGiK7KKAlE8CDgbEoZr5w0PgYUX4CX6h2B9gL6zZaCUKzs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>owb631OCfEYFbWRjZWI8WfblYNG8MA/ouBRPalQA5xn6YVI1MKikKZYuW1nobD0LnxcCte7MelXCX3n3OaEjOEAunB/YAWpWQv2xkQAZrHFfw11RP/cnVJyUvNqQxexXCscGUnNZqlUZTdCevDhN1wzuDknP15l+8EbGXoex5P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f85ab216db8d1cd1613a16c2eb57de697f9d7dc65a7ef2f68b1895c00c8ac543" Description="" Url=""><as:assemblyIdentity name="CustomerLookUp.exe" version="1.0.0.0" publicKeyToken="c3411028cd01e95e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CORP\smadhavan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>z5F212tFA5fqhY/s/HDt2sNq/c5AP2v6JTKnFD1M4So=</DigestValue></Reference></SignedInfo><SignatureValue>ou2Iy06frxo7EBuNEMY3CgYESAuhPIS71Oba04ewCn3xuz9pl35OYAifv0sX+tgiZjDtKfGBG3/7IC7cC0QXDeP+urZW1V+86YpgskY+H5duHM3a60ooH4sFDwW97b3EMD3FI2qzBQtm8JGW3g1FvoChsElkiP93HFO0d9ozbjw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>owb631OCfEYFbWRjZWI8WfblYNG8MA/ouBRPalQA5xn6YVI1MKikKZYuW1nobD0LnxcCte7MelXCX3n3OaEjOEAunB/YAWpWQv2xkQAZrHFfw11RP/cnVJyUvNqQxexXCscGUnNZqlUZTdCevDhN1wzuDknP15l+8EbGXoex5P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQcn/PmpboNI1DX48Fc1FzvDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQwBPAFIAUABcAHMAbQBhAGQAaABhAHYAYQBuMB4XDTE1MDMzMTE0MTYxNloXDTE2MDMzMDIwMTYxNlowJzElMCMGA1UEAx4cAEMATwBSAFAAXABzAG0AYQBkAGgAYQB2AGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAowb631OCfEYFbWRjZWI8WfblYNG8MA/ouBRPalQA5xn6YVI1MKikKZYuW1nobD0LnxcCte7MelXCX3n3OaEjOEAunB/YAWpWQv2xkQAZrHFfw11RP/cnVJyUvNqQxexXCscGUnNZqlUZTdCevDhN1wzuDknP15l+8EbGXoex5P0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCX5TDajxj9wL6FpwozD4nwmgJga8KpVyXlPz50yhIUBdDNyaMdZ+PU1mGxUCI418Jyh5mQdcZVmj1WscH1ESaqRX/8n3y9JEX4p3pt9JrOF5lnC5kyTYQln+W5ALIX91+KiXVcphGLNJivRpNhUbdp7QRbFNTHCmtUPE2o5ykclA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
